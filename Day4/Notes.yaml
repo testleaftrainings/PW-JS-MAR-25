@@ -1,0 +1,62 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Locator Practice</title>
+</head>
+<body>
+    <div id="container">
+        <h1 id="main-heading">Welcome to Testleaf</h1>
+
+        <p class="description">This is a paragraph tag</p>
+
+        <form>
+            <input type="text" name="username" placeholder="Enter Username">
+            <input type="password" name="password" placeholder="Enter Password">
+            <button>Login</button>
+        </form>
+    </div>
+</body>
+
+Xpath Locators:
+
+Basic Relative xpath :
+
+ID Based :
+
+Class Based :
+
+Name-based :
+
+Type-based :
+
+Parital attribute :
+
+Text based attribute 
+
+
+CSS LOcators:
+
+Tag Name Selector
+ID - #idValue
+Class - .classValue
+Attribute selector - [attributeName = 'attributeValue']
+Descendant Combinator (ancestor descendant)
+Child Combinator (parent>child) 
+Adjacent Sibling Combinator (element + adjacent)
+General Sibling Combinator (element ~ sibling)
+Substring :
+Starts with attribute selector (Carrot ^)
+Ends with attribute selector(Dollar - $)
+Contains attribute selector
+
+
+Playwright Locator:
+getByRole()
+getByText()
+getByLabel()
+getByPlaceholder()
+getByAltText()
+getByTitle()
+getByTestId()
