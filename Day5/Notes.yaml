@@ -1,0 +1,103 @@
+
+📑 Agenda for Week 3 Day 1: TypeScript Fundamentals 
+🎯 [ Focus: Mastering the basics of TypeScript with a foundation in JavaScript concepts ]  
+
+📆 Date: 05 April [Saturday]
+
+🕝 Session Highlights
+
+Recap
+   - Key Takeaways from Week2. 
+ * Understanding Playwright Architecture,About Browser, Context and Page
+ * CSS Selectors, XPath Selectors and Playwright's getBy Locators
+
+ Live Quiz
+* Conductiong time-boxed Live Quiz 
+- Questions from previous session with multiple choice answers.
+
+⿡ Handling Dropdowns 
+* Techniques for Handling Native and Custom Dropdowns.  
+* Use Case: Selecting Options Dynamically.
+
+⿢ Promises in JavaScript
+* Asynchronous Programming: Callbacks vs. Promises.  
+* Anatomy of a Promise: States and Methods (then, catch).  
+* Real-world Use Case: Fetching Data Using Promises.  
+
+⿣ Understanding Arrays in JavaScript  
+* Basics of Arrays: What and Why?  
+* Common Methods and Operations on Arrays.  
+
+⿤ Introduction to TypeScript
+* What is TypeScript, and Why Use It?  
+* Setting Up a TypeScript Environment.  
+* Basic Syntax and First TypeScript Program.  
+
+⿥ TypeScript Types  
+* Overview of Types in TypeScript:  
+* Hands-on: Declaring Variables with Different Types.  
+
+🕡 Wrap Up / Q&A
+
+📝 Keep your physical notebook and pen handy to sketch out ideas!
+
+
+Handling of dropdoen :
+
+1. select tag
+
+<select id="">
+<option value = "option1"> Option1</option> --> index=0
+<option value = "option2"> Option2</option> --> index=1
+
+selectOption method :
+
+<select id="">
+<option value = "101"> Books</option> --> index=0
+<option value = "102"> Cloths</option> --> index=1
+
+1. Select by value
+Example in above - "101", "102"
+
+2. Select by label
+Example :Books, Cloths
+
+3. Select by Index
+Example : index=0, index=1
+----------------------------------------------------------------
+2. non-select tag
+
+div, ul
+
+1. Locate the dropdown - click/ enter the value.
+
+2. Locate the particular option from the dropdown list - click it
+
+
+--------------------------------------------------------------------------
+
+Arrays
+
+1. Dynamic size.
+2. Heterogenous elements.
+
+Using Array Literal
+
+let names = ["a","b","c","d","e"];
+
+Using Array Constructor :
+
+let numbers = new Array(5);//Creates an array with 5 empty slots -- [ <5 empty items> ]
+numbers = [1,2,3,4,5]
+console.log(numbers);
+
+
+
+
+
+
+
+
+
+let numbers = new Array(5);//Creates an array with 5 empty slots
+let numbers = [1,2,3,4,5]
