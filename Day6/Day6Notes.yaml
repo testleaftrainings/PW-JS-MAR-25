@@ -1,0 +1,44 @@
+📑 Agenda for Week 3 Day 2: TypeScript Fundamentals & Key Features 
+ 
+🎯 [Focus: TypeScript Fundamentals & Key Features]  
+
+📆 Date: 06 April [Sunday]  
+
+🕝 Session Highlights  
+
+⿡ Recap  
+* Key takeaways from previous sessions.  
+
+⿤ Introduction to TypeScript
+* What is TypeScript, and Why Use It?  
+* Setting Up a TypeScript Environment.  
+* Basic Syntax and First TypeScript Program.  
+
+⿥ TypeScript Types  
+* Overview of Types in TypeScript:  
+* Hands-on: Declaring Variables with Different Types.  
+
+⿦ Explicit Types & Annotations 
+* Why Use Type Annotations?  
+* Explicitly Defining Function Parameters and Return Types.  
+* Examples:  
+     * Using Annotations with Arrays, Objects, and Functions.  
+     * Type Inference vs. Explicit Types. 
+
+⿢ Type Aliases  
+* What are Type Aliases and why use them?  
+* Syntax and examples.   
+
+⿣ Object Literals  
+* Defining and using object types in TypeScript.  
+
+⿤ Type Assertion  
+* What is Type Assertion?  
+* Examples: Converting unknown types.  
+
+⿥ Enums  
+* Understanding Enums: Numeric and String Enums.  
+
+🕡 Wrap Up / Q&A  
+
+📝 Keep your physical notebook and pen handy to sketch out ideas!
