@@ -1,0 +1,111 @@
+
+📑 Agenda for Week 4 Day 1: Dig Deeper into Playwright  
+
+🎯 [ Focus: Mastering advanced concepts in Playwright for effective automation testing ]  
+
+📆 Date: 12 April [Saturday]  
+
+🕝 Session Highlights  
+
+⿡ Recap  
+* Quick review of key learnings from previous Arrays in JavaScript, TypeScript Types, Type Aliases, Object Literals.
+
+⿤ Type Assertion  
+* What is Type Assertion?  
+* Examples: Converting unknown types.  
+
+⿥ Enums  
+* Understanding Enums: Numeric and String Enums.  
+   
+⿢ Playwright Configuration File Walkthrough  
+* Understanding the file structure.  
+* Key properties: Test directory, retries, timeout, projects, and reporters.  
+* Environment-specific configurations: Defining base URL, browser options, and test setup.  
+
+⿣ Assertions Using the 'expect' Library  
+* Commonly used assertions and their applications.   
+
+⿤ Auto-Waiting in Playwright  
+* What is auto-waiting, and why is it essential?  
+* Differences between manual waits and auto-waiting.  
+* Examples: Handling dynamic elements without flaky tests.  
+
+⿦ Alerts Handling  
+* Understanding Playwright’s support for JavaScript alerts, prompts, and confirmations.  
+* Automating acceptance or dismissal of alerts.  
+* Examples: Validating alert messages in applications.  
+
+🕡 Wrap Up / Q&A  
+
+📝 Keep your physical notebook and pen handy to sketch out ideas!
+
+
+
+1. test timeout :
+
+-This is the total time required to run your test file with extension .spec.ts
+-Default timeout is 30000ms => 30 secs
+
+2. Action timeout :
+-This is the time to perform a paritcular action example .click({timeout:2000}), .fill()
+
+3. Global timeout :
+- This is the global time to run your test suite includes your hooks , when you implement in your pipeline.
+
+4. Assertion timeout :
+-Assertion is validating an action within a specified timeframe.
+-Default assertion timeout 5000 ms.
+
+Three levels of configuration :
+
+1. CLI - Highest priority [execute in command line]
+2. Test level - higher than you config file [file to bbe executed using Open in Integrated Terminal]
+3. Config level -Least priority [execute test from where the config file is present -root directory]
+
+Assertions :
+
+1. Generic Assertions
+-Asserting the values in the tests.
+
+toBe , toEqual, toGreaterThan, toContain, toContainEqual
+
+2. Locator Assertions
+
+-Asserting the locators
+toBeVisbile, toBeEnabled, toHaveAttribute.
+
+3. Page Assertions
+title, url
+
+
+4. Snapshot Assertions
+-Will assert the snapshot when you  go for snapshot assertion
+
+5. API Refrence Assertion
+When ever yoiu want to go for an API response you can go for API reference assertions
+
+Depending on the functionality :
+
+1. Auto retry assertion,
+
+Polling time 15 secs
+
+So every 5 secs 
+1 sec
+1 sec
+1 sec
+1 sec
+1 sec
+
+
+2. Non - retry assertion.
+
+-Static validation. There is no polling mechanism.
+
+
+Hard Assertion
+-If the assertion is failed the the entire test execution is stopped immediately.
+
+Soft Assertion.
+-If the assertion is failed , it will not stop the test exectution, but you will have the failur report
+after the test execution.
