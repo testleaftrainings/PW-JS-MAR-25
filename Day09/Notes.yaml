@@ -1,0 +1,41 @@
+📑 *Agenda for Week 5 Day 1: Advanced Playwright Interactions*
+
+🎯 *[ Focus: Handling real-world user interactions like windows, files, and data-driven testing ]*
+
+📆 *Date:* 19 April[Saturday]  
+
+🕝 *Session Highlights*
+
+⿡ *Window Handling*  
+* Understanding multiple browser contexts and tabs/windows.  
+* Switching between windows and handling pop-ups.  
+* Real-time examples: Amazon product page.
+
+⿢ *File Upload*  
+* Uploading files using file input elements.  
+* Working with drag-and-drop style uploads.  
+* Example: Automating resume uploads in job portals.
+
+⿣ *File Download*  
+* Automating file download process in Playwright.  
+* Setting download paths and verifying file content.  
+
+⿤ *Reading CSV and JSON Files*  
+* Importing and parsing CSV/JSON test data.   
+* Best practices for maintaining test data files.
+
+🕡 *Wrap Up / Q&A*
+
+📝 *Keep your physical notebook and pen handy to sketch out ideas and test workflows!*
+
+
+Window Handling :
+
+
+TestAnnotations :
+
+1. test.only
+2. test.skip
+3. test.fail
+4. test.fixme
+5. test.slow()
