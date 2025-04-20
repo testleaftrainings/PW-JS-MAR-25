@@ -1,0 +1,88 @@
+📑 Agenda for Week 5 Day 2: Advanced Data Parameterization and Exclusive Features of Playwright
+
+🎯 [Focus: Advanced Data Parameterization and Exclusive Features of Playwright]  
+
+📆 Date: 20 April [Sunday]  
+
+🕝 Session Highlights
+
+Recap
+* Quick review of key learnings from previous session. 
+
+⿡ *Reading ENV Files*  
+* Importing and parsing ENV test data.   
+* Best practices for maintaining test data files. 
+
+⿢ *File Upload*  
+* Uploading files using file input elements.  
+* Working with drag-and-drop style uploads.  
+* Example: Automating resume uploads in job portals.
+
+⿣ *File Download*  
+* Automating file download process in Playwright.  
+* Setting download paths and verifying file content. 
+
+⿤ *Geolocation*  
+* Simulating a location using Playwright. 
+
+⿥ *Device Emulation*  
+* Simulating a device configuration using Playwright. 
+
+⿦ *CodeGen Basics*  
+* Learning about Codegen in Playwright. 
+
+
+🕡 Wrap Up / Q&A  
+
+📝 Keep your physical notebook and pen handy to sketch out ideas!
+
+
+Notes:
+
+npm install dotenv
+
+Steps to run your data related .env
+
+filename.env
+qa.env
+prod.env
+
+1, Method :
+process.env.envVariable
+//dotenv.config({path:"Data/prod.env"})//setting path to read your .env file
+
+2. Method :
+
+const filetoRead = process.env.filename||'qa'//if you don't have a fileName here by deafult it will read your 'qa'
+
+dotenv.config({path:`Data/${filetoRead}.env`})
+
+In the terminal :
+$env:filename='prod'-->set the path to read the file
+
+To know which path is set:
+$env:filename
+
+
+3. Method :
+Create multiple config file
+
+npx playwright test filename --config=playwright.qa.config.ts
+
+npx playwright test filename --config=playwright.prod.config.ts
+
+package.json :
+
+script{
+
+"testrunqa"="npx playwright test filename --config=playwright.qa.config.ts"
+"testrunprod"="npx playwright test filename --config=playwright.prod.config.ts"
+
+}
+
+File Upload
+
+We have 2 methods to check while uploading a file.
+
+1, Check for the type="file" is present in your DOM
+2, If you dont fine type="file" we will using waitForEvent('filechooser')
