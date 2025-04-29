@@ -1,0 +1,42 @@
+API
+
+Application Program Inteface
+
+Monolithic Architecture Vs Micro Services
+
+API Testing
+
+Documentation --> Swagger. pdf
+
+Endpoint --> uri / resource
+RequestMethod --> Create,read,update and delete(POST, GET, PATCH/PUT, DELETE)
+Headers--> tokens(Authentication)-->requesttype/ responsetype
+Body/Payload --> Test Data--> Firstname, LastName
+
+{
+"firstname"="Ravindran"
+}
+
+Response - response status code/ time/ text 200, 201,400,404,403, 500
+
+Parameters - path and query parameter
+
+HTTP methods -->CRUD operations
+
+Post -- >Create a resource
+Get --> fetch resources
+Delete --> Delete the specific  resoource
+Put --> Replace the resource info, if not avilable creates a new resource
+Patch --> partial update in the resource
+
+Authentication 
+Who are you to navigate to a particular location or reource.
+
+Authorization 
+What your allowed to do
+
+no auth  --> weather, api
+Basic auth --> username, password
+OAuth --> token
+apikey --> token
+JWT  --> json webtoken
