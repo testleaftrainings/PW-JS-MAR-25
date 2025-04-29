@@ -1,0 +1,24 @@
+
+1. Global variable.--> set your globally so that it is accessible to all the other HTTP methods
+2. Environment variable.--> Dev, Prod, UAT
+3. Collection variable.--> To do with your collection specific.
+
+API Request Context
+
+API Request Context --> Browser Context
+
+test(){
+
+  browser = chromium.launch();
+  context=browser.newContext();
+  page = context.nrePage();
+}
+API test case:
+
+test(){
+  browser.newContext
+  request=context.request();
+  request.post/get/put/patch
+}
+
+request is an inbult library.
