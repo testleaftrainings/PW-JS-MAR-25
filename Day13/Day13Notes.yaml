@@ -1,0 +1,44 @@
+📑 **Agenda for Week 7 Day 1: Advanced Playwright Interactions**
+
+🎯 [Focus: Exploring Advanced Features for Enhanced Playwright Automation]
+
+📆 **Date:** 03 May[Saturday]  
+
+🕝 **Session Highlights**
+📑 Agenda for Week 07 Day 02: Advanced Playwright Key Features  
+
+Utility File Handling in API with Playwright
+* Practical application of CRUD operation using Utility file.
+
+Hooks Feature:
+*Test annotation - test.beforeAll(),test.beforEach(),test.afterEach(), test.afterAll()
+* All about Tags.
+
+⿢ Storage State (Skip Login)  
+* Utilizing storage state to bypass login during test execution.  
+* Practical examples: Reducing redundant authentication steps.  
+
+Persistent Context
+Learn about persistent context in Playwright
+
+⿣ Tracing  
+* Leveraging tracing for debugging and analyzing test execution.  
+* Generating and interpreting trace reports.  
+
+⿧ Device Emulation  
+* Emulating various devices and screen resolutions in Playwright.  
+* Practical examples: Testing responsive designs and mobile-specific features.  
+
+🕡 Wrap Up / Q&A
+
+📝 Keep your physical notebook and pen handy to sketch out ideas!
+
+
+Hooks :
+
+--> Pre and condition 
+
+test.beforeAll()
+test.beforeEach()
+test.afterEach()
+test.afterAll()
