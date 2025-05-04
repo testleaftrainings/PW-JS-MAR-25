@@ -1,0 +1,52 @@
+
+Class:
+
+Blueprint/ template --> collection of objects and methods.
+
+Class:
+
+Classroom:
+
+
+{
+  Properties:
+  Desks
+  chairs
+  Blackboard
+
+Methods :
+
+coductLecture()
+studying()
+writingTest()
+}
+
+Objects - an actual instance created from a class
+
+XA - object of classroom
+XB - object of classroom
+
+Constructor:
+It is invoked whenever an object of a class is created.
+It is a special method in a class which will run automatically whenever your object is created.
+It is going to initialize the objects with starting values.
+
+Classroom(numofDesks, numOfChairs, noOfBoards){
+Desk=numofDesks
+Chairs=numofchairs
+Board=noofBorad
+}
+
+const objectName = new ConstructorName()
+
+const xa = new Classroom(25,25,2);
+
+const xb = new Classroom(30,30,1);
+
+Access Modifiers :
+
+1. public - accesible from anywhere
+2. private - accessible only within the class.
+3. protected - accesible within the class and its derived /subclasses
+
+readonly - immutability
